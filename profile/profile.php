@@ -39,6 +39,8 @@
               <button id="home_page_bars" class="btn" onclick="window.location.href = '/../home_page.php'">Главная</button>
 
               <button id="closed_gall_bars" class="btn" onclick="window.location.href = '/../closed_gall/closed_gall.php'">Галерея</button>
+
+              <button id="game_bars" class="btn" onclick="window.location.href = '/../memory_game/game.php?id=<?=$_GET['id'] ?>'">Игра</button>
             </div>
           </div>
     <div id="main_text">
